@@ -13,14 +13,46 @@
     <link rel="stylesheet" href="style.csss">
 </head>
 <body>
+    <!--Arquivo JavaScript externo-->
+    <script src="./main.js"></script>
+
     <header class="header1">
         <h1 class="first_title">Fit Zone</h1>
         <p>Saúde alimentar e dicas para se manter em forma</p>
+        <form id="form_search_principal">
+            <input 
+            type="search" 
+            name="pesquisaporcategoria" 
+            class="search"
+            size="19"
+            aria-label="Pesquisa por categoria"
+            placeholder="pesquisa por assunto"> 
+            <button class="botãopesquisar">
+                pesquisar
+            </button>
+        </form>
         <img src="#" alt="imagem da header">
         <nav>
             <ul>
                 <li>
                     <img class="profile" src="#" alt="Profile">
+                    <fieldset>
+                        <input 
+                        type="email"
+                        placeholder="Email de acesso"
+                        required
+                        >
+                        <input 
+                        type="password"
+                        placeholder="Digite sua senha"
+                        size="14"
+                        minlength="6"
+                        maxlength="14"
+                        title="Insira no mínimo 6 caracteres e no máximo 14"
+                        required
+                        >
+                        <button>Enviar</button>
+                    </fieldset>
                 </li>
                 <li>
                     <img class="notifications" src="#" alt="Notifications">
