@@ -9,50 +9,38 @@
     Além dos exercícios, também fornecemos informações valiosas sobre nutrição, hábitos de vida e bem-estar mental, pois esses fatores desempenham um papel crucial na obtenção de saúde e condicionamento físico geral. Nosso blog apresenta artigos e dicas sobre alimentação saudável, controle do estresse e autocuidado, entre outros, para ajudá-lo a levar uma vida saudável e equilibrada.
     Acreditamos que o fitness deve ser acessível a todos, independentemente de sua localização ou orçamento. É por isso que oferecemos opções de associação gratuita e paga, que oferecem acesso aos nossos vídeos de treino, planos de treino personalizados e outros recursos exclusivos.
     Seja você um iniciante ou um entusiasta do fitness, nosso site é o lugar perfeito para começar sua jornada de fitness. Junte-se à nossa comunidade de pessoas que pensam da mesma forma e estão empenhadas em viver suas melhores vidas por meio da saúde e do condicionamento físico. Deixe-nos ajudá-lo a transformar sua mente, corpo e espírito hoje">
-    <title>Saúde e Físico</title>
-    <link rel="stylesheet" href="style.csss">
+    <meta name="author" content="Ismael dos Santos">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Patua+One&display=swap');
+    </style>
+    <!--Pôr a logo que aparecerá na guia ao lado do nome-->
+    <title>Fit Zone</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <!--Arquivo JavaScript externo-->
     <script src="./main.js"></script>
 
-    <header class="header1">
-        <h1 class="first_title">Fit Zone</h1>
+    <header id="header1">
+        <h1 id="first_title">Fit Zone</h1>
         <p>Saúde alimentar e dicas para se manter em forma</p>
         <form id="form_search_principal">
             <input 
             type="search" 
-            name="pesquisaporcategoria" 
+            name="buscaporcategoria" 
             class="search"
             size="19"
-            aria-label="Pesquisa por categoria"
-            placeholder="pesquisa por assunto"> 
-            <button class="botãopesquisar">
-                pesquisar
-            </button>
+            aria-label="Busca por categoria"
+            placeholder="busca por assunto">
+            <button>Pesquisar</button>
         </form>
-        <img src="#" alt="imagem da header">
+        <img class="img_header" src="#" alt="imagem da header">
+        <img class="iconbusc" src="#" alt="icone de busca">
         <nav>
             <ul>
                 <li>
                     <img class="profile" src="#" alt="Profile">
-                    <fieldset>
-                        <input 
-                        type="email"
-                        placeholder="Email de acesso"
-                        required
-                        >
-                        <input 
-                        type="password"
-                        placeholder="Digite sua senha"
-                        size="14"
-                        minlength="6"
-                        maxlength="14"
-                        title="Insira no mínimo 6 caracteres e no máximo 14"
-                        required
-                        >
-                        <button>Enviar</button>
-                    </fieldset>
                 </li>
                 <li>
                     <img class="notifications" src="#" alt="Notifications">
@@ -77,12 +65,71 @@
         <img class="pic_of_benefits" src="#" alt="foto de alguma comida">
         <h2 id="power_of_feeding">Poder da alimentação saudável</h2>
             <h4 class="first_box">
-                <a href="#">benefícios</a> 
-                <!--img src="#" alt="benefícios">// <h5>benefícios</h5>--> <!--alternativa para pôr, pois aí seria possível usar o JS para garantir a interação e o CSS para a estilização, podendo abrir um card na tela com uma explicação e um link para redirecionar a uma explicação mais detalhada sobre o assunto-->
+                <a href="#">Benefícios</a> 
             </h4>
-            <h4 class="second_box">Prevenção contra doenças</h4>
-            <h4 class="third_box">Como ser mais saúdavel</h4>
+            <h4 class="second_box">
+                <a href="#">Prevenção contra doenças</a>
+            </h4>
+            <h4 class="third_box">
+            <a href="#">Prevenção contra doenças</a>
+            </h4>
     </div>
-    
+    <div id="principals_foods">
+        <h2>Principais alimentos que não podem faltar na sua dieta</h2>
+        <img src="#" alt="Legumes">
+        <img src="#" alt="Verduras">
+        <img src="#" alt="Carnes">
+        <img src="#" alt="Frutas">
+        <img src="#" alt="Massas">
+        <img src="#" alt="Doces">
+    </div>
+    <section id="biotypes">
+        <h2>Conheça os tipos corporais</h2>
+        <a href="#">Ectomorfo</a>
+        <a href="#">Mesoformo</a>
+        <a href="#">Endomorfo</a>
+    </section>
+    <div class="findout_your_biotype">
+        <!--Esse será uma caixinha de clique-->
+        <h3>
+            <a href="#">Descubra o seu biotipo</a>
+        </h3>
+    </div>
+    <article id="diet">
+        <!--Preciso definir como será esse-->
+        <h1>
+            <a href="#"> Dietas para cada biotipo</a>
+        </h1>
+        <h4>
+            <a href="#">monte sua dieta com um profissional</a>
+        </h4>
+    </article>
+
+    <footer>
+        <h1>
+            Texto de rodapé
+        </h1>
+        <a href="#">Instagram</a>
+        <img src="#" alt="Instagram">
+    <br>
+        <a href="#">Facebook</a>
+        <img src="#" alt="Facebook">
+    <br>
+        <a href="#">Youtube</a>
+        <img src="#" alt="Youtube">
+    <br>
+        <a href="#">LinkedIn</a>
+        <img src="#" alt="LinkedIn">
+    <br>
+        <a href="#">Email</a>
+        <img src="#" alt="Email">
+    <br>
+        <address>
+            <p>Reclamções aqui</p>
+            <!--Número de telefone-->
+            <p>About</p>
+        </address>
+        <img src="#" alt="Logo da página/marca">
+    </footer>
 </body>
 </html>

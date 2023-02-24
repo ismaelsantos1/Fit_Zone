@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="forms">
+        <div>
+            <label for="emaildeacesso">Email</label>
+            <input id="emaildeacesso" name="emaildeacesso"
+            type="email"
+            placeholder="Email de acesso"
+            required
+            title="Por favor insira um endereço de email válido"
+            >
+        </div>
+        <div>
+            <label for="senhacadastrada">Senha</label>
+            <input id="senhacadastrada" name="senhacadastrada"
+            type="password"
+            placeholder="Digite sua senha"
+            size="14"
+            minlength="6"
+            maxlength="14"
+            pattern="[0-9a-A-Z]{4,6}"
+            title="Insira no mínimo 6 caracteres e no máximo 14"
+            required
+            >
+        </div>
+            <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
