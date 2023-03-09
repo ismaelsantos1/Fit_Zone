@@ -12,7 +12,7 @@ body{
 #header{
     background-color: rgb(30, 30, 30);
     opacity: 80%;
-    height: 3em;
+    height: 7vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,7 +31,7 @@ body{
 .search-box{
     position: absolute;
     top: 1em;
-    left: 90em;
+    left: 88em;
     transform: translate(-60%, -25%);
     height: 40px;
     padding: 10px;
@@ -82,7 +82,7 @@ body{
 .user{
     position: absolute;
     top: 1em;
-    left: 94em;
+    left: 93em;
     transform: translate(-60%, -25%);
     height: 40px;
     padding: 10px;
@@ -310,10 +310,49 @@ body{
 
 
 /*Fim do formulário de login*/
+
+.socials{
+    width: 80vw;
+    height: 3vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.home .consult .contact{
+    justify-content: space-between;
+    display: flex;
+}
+
+.home{
+    padding: 0px 4vw;
+    font-size: 1em;
+    font-family: 'Kanit';
+    color: rgb(157, 102, 190);
+    margin-left: 20vw;
+    text-decoration: none;
+}
+
+.consult{
+    padding: 0px 4vw;
+    font-size: 1em;
+    font-family: 'Kanit';
+    color: rgb(157, 102, 190);
+    text-decoration: none;
+}
+
+.contact{
+    padding: 0px 4vw;
+    font-size: 1em;
+    font-family: 'Kanit';
+    color: rgb(157, 102, 190);
+    text-decoration: none;
+}
+
 #heading{
     background-image: url(files/habitos/mulher_academia1.jpg);
-    width: 1500;
-    height: 450px;
+    width: 100vw;
+    height: 60vh;
     background-position-x: 120em;
     align-items: center;
     justify-content: space-between;
@@ -327,9 +366,11 @@ body{
     columns: 3;
     text-shadow: rgb(87, 63, 138) 1px 1px 0.3rem;
     position: relative;
+    justify-content: center;
+    align-items: center;
 }
 .SubTitleHeader{
-    width: 260px;
+    width: 25vw;
     font-family: 'Paytone One';
     font-size: 25px;
     color: rgb(242, 219, 219);
@@ -338,6 +379,8 @@ body{
     justify-content: center;
     text-shadow: rgb(87, 63, 138) 2px 2px 0.3rem;
     position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Fim da Header*/
