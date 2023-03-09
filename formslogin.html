@@ -6,16 +6,250 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+    </style>
+    <!--<style>
+        body{
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        .main-login{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(134, 104, 197);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .left-login{
+            width: 50vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .left-login > h1 {
+            font-size: 3vw;
+            color: aliceblue;
+            font-family: 'Paytone One';
+            font-weight: 580;
+        }
+
+        .left-login-image{
+            width: 30vw;
+        }
+
+        .right-login{
+            width: 50vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card-login{
+            width: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 30px 35px;
+            background-color: rgb(83, 60, 132);
+            border-radius: 25px;
+            box-shadow: 0px 10px 40px #00000056;
+        }
+
+        .card-login > h1 {
+            color: aliceblue;
+            font-family: 'Paytone One';
+            font-weight: 590;
+        }
+
+        .textfield{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            margin: 20px 0px;
+        }
+        
+        .textfield > input{
+            width: 100%; /*altera tamanho*/
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: rgb(134, 104, 197);
+            color: aliceblue;
+            font-size: 12pt;
+            outline: none;
+            box-sizing: border-box;
+        }
+        
+        .textfield > label{
+            color: aliceblue;
+            margin-bottom: 10px;
+        }
+
+        .textfield > input::placeholder{
+            color: rgb(77, 50, 98);
+        }
+
+        .btn-login{
+            width: 100%;/*altera tamanho*/
+            padding: 16px 0px;
+            margin: 15px;
+            border: none;
+            border-radius: 30px;
+            text-transform: uppercase;
+            cursor: pointer;
+            font-weight: 800;
+            letter-spacing: 3px;
+            color: rgb(77, 50, 98);
+            background-color: aliceblue;
+            box-shadow: 0px 10px 40px -12px rgb(77, 50, 98);
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .card-login > img{
+            justify-content: space-between;
+        }
+
+        
+        .card-login > #other-login-ways{
+            width: 10vw;
+            height: auto;
+            margin-left: 18%;
+        }
+
+        .facebook-image-login , .google-image-login{
+            width: 25%;
+            justify-content: space-around;
+            align-items: center;
+            left: 2em;
+        }
+
+
+            @media only screen and (max-width: 950px){
+                .card-login{
+                    width: 85%;
+                }
+            }
+
+            @media only screen and (max-width: 950px) /*Para celular e telas menores*/{
+                .main-login{
+                    flex-direction: column;
+                }
+
+                .left-login > h1{
+                    display: none;
+                }
+
+                .left-login{
+                    width: 100%;
+                    height: auto;
+                }
+
+                .right-login{
+                    width: 100%;
+                    height: auto;
+                }
+
+                .left-login-image{
+                    width: 40vw;
+                }
+
+                .card-login{
+                    width: 90%;
+                }
+            }
+
+            @media only screen and (max-width: 1024px) /*telas intermediárias(tablets)*/{
+                .main-login{
+                    width: 100vw;
+                }
+
+                .left-login{
+                    width: 60%;
+                    height: auto;
+                }
+
+                .left-login > h1{
+                    width: 40vw;
+                }
+
+                .left-login-image{
+                    width: 30vw;
+                }
+
+                .right-login{
+                    width: 60%;
+                    height: auto;
+
+                }
+
+                .card-login{
+                    width: 45vw;
+                }
+            }
+            
+            @media only screen and (min-width: 290px) and (max-width: 950px){
+                .main-login{
+                    width: 100vw;
+                }
+
+                .left-login > h1{
+                    width: 20vw;
+                }
+
+                .left-login-image{
+                    display: none;
+                }
+
+                .right-login{
+                    width: 100vw;
+                }
+
+                .card-login{
+                    width: 80%;
+                }
+            }
+    </style>-->
+
 </head>
 <body>
-    <div class="lg-box">
-        <h1 class="made-login">Faça Login</h1>
-        <form class="login">
-            <label class="email" for="email">Email</label>
-            <input class="box-email" type="email" name="email" id="" aria-placeholder="digite seu email">
-            <label class="password" for="password">Senha</label>
-            <input class="box-pssword" type="password" name="password" id="" aria-placeholder="digite sua senha">
-        </form>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça Login <br> E torne-se fitness</h1>                   
+            <img src="./media/login_icons/animationpagelogin.svg" class="left-login-image" alt="">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>Login</h1>
+                <div class="textfield">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" placeholder="E-mail" size="20">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha" size="20">
+                </div>                
+                    <button class="btn-login">Login</button> 
+                <div id="other-login-ways">
+                    <a href="#">
+                        <img src="./media/login_icons/google.svg" class="google-image-login">
+                    </a>
+                    <a href="#">
+                        <img src="./media/login_icons/facebook.svg" class="facebook-image-login">
+                    </a>
+                    </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
