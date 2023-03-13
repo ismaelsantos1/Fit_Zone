@@ -28,6 +28,7 @@ body{
     align-items: center;
 }*/
 
+/*Caixa de pesquisa*/
 .search-box{
     position: absolute;
     top: 1em;
@@ -78,6 +79,7 @@ body{
 .search-box:hover > .search-bottom{
     background: rgb(245, 245, 247);
 }
+/*Fim da caixa de pesquisa*/
 
 .user{
     position: absolute;
@@ -409,3 +411,29 @@ body{
     position: absolute;
     
 }
+
+#benefits-of-food{
+    width: 100vw;
+    height: 70vh;
+}
+
+.food{
+    width: 100vw;
+    height: 60vh;
+    filter: opacity(40%);
+}
+
+#power-of-feeding{
+    font-family: 'Paytone One';
+    font-size: 3em;
+    color: aliceblue;
+    position: absolute;
+    margin-top: -350px;
+    width: 30vw;
+    height: 40vh;
+    left: 28px;
+    text-align: left;
+    text-shadow: -1px 2px 2px rgb(157, 102, 190);
+}
+
+
