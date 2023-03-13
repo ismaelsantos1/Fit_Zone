@@ -385,3 +385,27 @@ body{
 
 /*Fim da Header*/
 
+#goal{
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(134, 104, 197);
+    box-sizing: border-box;
+}
+
+.goal-of-website{
+    width: 80vw;
+    height: 10vh;
+    color: aliceblue;
+    font-family: "Paytone One";
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+    margin-left: 5em;
+    line-height: 30px;
+    line-break: auto;
+    font-weight: 300;
+    position: absolute;
+    
+}
