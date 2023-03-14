@@ -33,6 +33,7 @@ body{
     position: absolute;
     top: 1em;
     left: 88em;
+    right: auto;
     transform: translate(-60%, -25%);
     height: 40px;
     padding: 10px;
@@ -372,7 +373,7 @@ body{
     align-items: center;
 }
 .SubTitleHeader{
-    width: 25vw;
+    width: 20vw;
     font-family: 'Paytone One';
     font-size: 25px;
     color: rgb(242, 219, 219);
@@ -408,7 +409,7 @@ body{
     line-height: 30px;
     line-break: auto;
     font-weight: 300;
-    position: absolute;
+    /*position: absolute;*/
     
 }
 
@@ -434,6 +435,11 @@ body{
     left: 28px;
     text-align: left;
     text-shadow: -1px 2px 2px rgb(157, 102, 190);
+}
+
+.first-box, .second-box, .third-box{
+    width: 100vw;
+    height: auto;
 }
 
 
