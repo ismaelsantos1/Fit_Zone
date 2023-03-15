@@ -11,11 +11,12 @@ body{
 /*Header*/
 #header{
     background-color: rgb(30, 30, 30);
-    opacity: 80%;
-    height: 7vh;
+    width: 100vw;
+    height: 3.5em;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /*position: fixed;*/
 }
 
 
@@ -35,7 +36,7 @@ body{
     left: 88em;
     right: auto;
     transform: translate(-60%, -25%);
-    height: 40px;
+    height: 6vh;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -62,8 +63,8 @@ body{
 }
 
 .search-btn{
-    width: 20px;
-    height: 20px;
+    width: 2vw;
+    height: 5vh;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -390,7 +391,7 @@ body{
 
 #goal{
     width: 100vw;
-    height: 30vh;
+    height: 26vh;
     background-color: rgb(134, 104, 197);
     box-sizing: border-box;
 }
@@ -415,31 +416,32 @@ body{
 
 #benefits-of-food{
     width: 100vw;
-    height: 70vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .food{
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
     filter: opacity(40%);
+    justify-content: center;
+    align-items: center;
 }
 
-#power-of-feeding{
+
+.power-of-feeding{
     font-family: 'Paytone One';
     font-size: 3em;
     color: aliceblue;
-    position: absolute;
-    margin-top: -350px;
-    width: 30vw;
-    height: 40vh;
-    left: 28px;
+    width: 6.5em;
+    margin-left: 50px;
     text-align: left;
     text-shadow: -1px 2px 2px rgb(157, 102, 190);
 }
 
 .first-box, .second-box, .third-box{
-    width: 100vw;
-    height: auto;
-}
-
+    
+}*/
 
